@@ -22,6 +22,6 @@ export class UserModel {
     }
 
     upgradeMembership(): void {
-        this.user.membershipType = MembershipType.PREMIUM;
+        this.user.membershipType = MembershipType.PREMIUN;
     }
 }
