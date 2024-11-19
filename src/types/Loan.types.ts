@@ -4,5 +4,5 @@ export interface Loan{
     bookId: string;
     loanDate: Date;
     dueDate: Date;
-    returnDate?: Date;
+    returnedDate?: Date;
 }
